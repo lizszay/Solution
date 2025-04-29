@@ -6,7 +6,7 @@ class Program
     {
         using (ApplicationContext db = new ApplicationContext())
         {
-            DataInitializer.Initialize(db);
+            DataInitializer.Initialize(db); //инициализация данных в бд 
         }
 
         using (ApplicationContext db = new ApplicationContext())

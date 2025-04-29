@@ -18,7 +18,7 @@ public class Company
     public int Id { get; set; }
     public string? Name { get; set; }
     public int CountryId { get; set; }
-    public Country? Country { get; set; }
+    public Country? Country { get; set; } //может принимать значение null
     public List<User> Users { get; set; } = new();
 }
 // должность пользователя
@@ -28,6 +28,7 @@ public class Position
     public string? Name { get; set; }
     public List<User> Users { get; set; } = new();
 }
+//пользователь 
 public class User
 {
     public int Id { get; set; }
