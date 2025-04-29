@@ -2,7 +2,7 @@
 
 class Program
 {
-    public static void Main(string[] args)
+    public static void Main()
     {
         using (ApplicationContext db = new ApplicationContext())
         {
