@@ -1,8 +1,6 @@
-﻿using YourProject.Models;
-using YourProject.Data;
-using System.Linq;
+﻿using Project.Models;
 
-namespace YourProject.Data
+namespace Project.Data
 {
     public static class DataInitializer
     {

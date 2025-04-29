@@ -1,10 +1,8 @@
-﻿using YourProject.Data;
-using System;
-using System.Linq;
-using YourProject.Models;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using Project.Data;
+using Project.Models;
 
-namespace YourProject
+namespace Project
 {
     class Program
     {

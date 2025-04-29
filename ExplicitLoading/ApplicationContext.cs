@@ -1,8 +1,7 @@
-﻿using System.Collections.Generic;
-using Microsoft.EntityFrameworkCore;
-using YourProject.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using Project.Models;
 
-namespace YourProject.Data
+namespace Project.Data
 {
     public class ApplicationContext : DbContext
     {

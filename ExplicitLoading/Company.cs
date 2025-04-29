@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace YourProject.Models
+﻿namespace Project.Models
 {
     public class Company
     {
